@@ -1,0 +1,45 @@
+[
+  {
+    "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
+    "genres": ["Short"],
+    "runtime": 1,
+    "cast": ["John Ott"],
+    "num_mflix_comments": 0,
+    "title": "Avengers 4",
+    "fullplot": "",
+    "countries": ["USA"],
+    "released": 2023,
+    "directors": ["William K.L. Dickson"],
+    "rated": "UNRATED",
+    "awards": {
+      "wins": 1,
+      "nominations": 0,
+      "text": "1 win."
+    },
+    "lastupdated": "",
+    "year": 1893,
+    "imdb": {
+      "rating": 6.2,
+      "votes": 1189,
+      "id": 5
+    },
+    "type": "movie",
+    "tomatoes": {
+      "consensus": "",
+      "critic": {
+        "rating": 8,
+        "numReviews": 38,
+        "meter": 100
+      },
+      "fresh": 38,
+      "production": "",
+      "rotten": 0,
+      "website": "http://www.milestonefilms.com/",
+      "viewer": {
+        "rating": 3,
+        "numReviews": 184,
+        "meter": 32
+      }
+    }
+  }
+]
