@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple REST API with CRUD Functionalities",
   "main": "server.js",
+  "engines": {
+    "node": ">=18 <19"
+  },
   "scripts": {
     "start": "nodemon server.js"
   },
