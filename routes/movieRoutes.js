@@ -1,12 +1,19 @@
 const express = require('express');
 const router = express.Router();
 
-const { getAllMovies,
+const {
+  getHome,
+  getAllMovies,
   createOneMovie,
   getMovieByName,
   getMovieByID,
   updateOne,
-  deleteOne } = require('../controller/moviesController');
+  deleteOne,
+} = require('../controller/moviesController');
+
+// Get Default
+router.route("/")
+  .get(getHome);
 
 //Get All
 router.route('/view')

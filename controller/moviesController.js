@@ -1,5 +1,9 @@
 const Movie = require('../model/movie');
 
+exports.getHome = async (req, res) => {
+  res.status(200).json({ Message: 'Welcome to mFlix Movies API' });
+};
+
 exports.getAllMovies = async (req, res) => {
 
   //destructuring page and limit and set default values
@@ -161,6 +165,10 @@ exports.deleteOne = async (req, res) => {
   }
 };
 
+
+// app.get('/', async (req, res) => {
+//   res.send({ Message: 'Welcome to mFlix Movies API' });
+// });
 
 /*
 app.get('/api/v1/movies', async (req, res) => {
